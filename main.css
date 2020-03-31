@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #707378;
+  margin: 0px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+footer {
+  border-top: 1px solid #e4e4e4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+ul {
+  display: flex;
+  padding-inline-start: 1em;
+  padding-inline-end: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #707378;
+}
+
+a.gestes {
+  color: #1a0dab;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.aconnexion:hover {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+div.subcenter img {
+  height: 3em;
+}
+
+div.top-icons ul li img {
+  height: 1em;
+}
+
+div.top-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+div.top-icons > ul {
+  align-items: center;
+}
+
+div.top-icons > ul > * {
+  margin: auto 9px;
+}
+
+div.center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 1rem 0;
+
+  height: 40px;
+  width: 600px;
+
+  border: #dfe1e5 1px solid;
+  border-radius: 23px;
+}
+
+div.search:hover {
+  box-shadow: 0 0px 3px #dcdcdd;
+}
+
+div.search > * {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+div.search > input {
+  margin: 0 1rem;
+  font-size: 14px;
+  flex-grow: 1;
+  border: none;
+}
+
+div.search > input:focus {
+  outline: none;
+}
+
+div.centerbuttons {
+  display: flex;
+  justify-content: center;
+}
+
+div.centerbuttons > input {
+  border: none;
+  color: #707378;
+}
+
+div.centerbuttons > * {
+  margin: auto 6px;
+  height: 40px;
+  width: 150px;
+}
+
+div.centerbuttons > *:hover {
+  box-shadow: 0 0px 1px #000000;
+} 
+
+div.subcenter {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.subcenter > * {
+  margin: auto 5px;
+}
+
+div.bottom-text {
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul.france {
+  display: flex;
+  padding-left: 27px;
+}
+
+div.bottom-text > div.bottomleft > ul > * {
+  margin: auto 13px;
+}
+
+div.bottom-text > div.bottomright > ul > * {
+  margin: auto 13px;
+}
+
+span.connexion {
+  border: 10px solid #4285f4;
+  font-weight: bold;
+  color: #ffffff;
+  background: #4285f4;
+}
